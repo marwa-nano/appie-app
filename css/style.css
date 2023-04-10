@@ -336,11 +336,7 @@ h2 {
   min-height: 100vh;
   min-height: 90dvh;
   padding-top: 2rem;
-  background-image: url(../images/hero.png);
-  background-image: image-set(
-    url(../images/hero.webp),
-    url(../images/hero.png)
-  );
+  background-image: url(../images/hero.webp), url(../images/hero.png);
   background-repeat: no-repeat;
   background-size: 40%;
   background-position: bottom right;
@@ -611,11 +607,8 @@ input[type="email"] {
     padding: 4rem;
   }
   .bg-img {
-    background-image: url(../images/about-thumb.png);
-    background-image: image-set(
-      url(../images/about-thumb.webp),
-      url(../images/about-thumb.png)
-    );
+    background-image: url(../images/about-thumb.webp),
+      url(../images/about-thumb.png);
     background-repeat: no-repeat;
     background-position-x: 3rem;
     height: 22rem;
@@ -1049,8 +1042,7 @@ p.price.yearly {
 .testmeniols-container {
   padding: 2rem 1rem;
   color: var(--clr-primary-white);
-  background-image: url(../images/bg.jpeg);
-  background-image: image-set(url(../images/bg.webp), url(../images/bg.jpeg));
+  background-image: url(../images/bg.webp), url(../images/bg.jpeg);
   align-items: center;
   position: relative;
   height: 22rem;
