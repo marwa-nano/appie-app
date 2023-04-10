@@ -137,7 +137,9 @@ video {
   }
 }
 
-*:focus-visible {
+*:focus-visible,
+.prev-btn:focus,
+.next-btn:focus {
   outline: 1px solid var(--clr-accent);
 }
 

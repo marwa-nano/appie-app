@@ -45,8 +45,10 @@
         <a class="logo-link" href="#"
           ><img
             class="logo-img"
-            src="images/logo.png"
+            src="images/logo.webp"
             alt="logo image for appie application"
+            width="max-width"
+            height="auto"
         /></a>
         <button class="mobile-nav-toggle" aria-controls="main-nav">
           <span class="visually-hidden">Menu</span>
@@ -104,24 +106,32 @@
               <div class="feedback-content flex-group">
                 <div class="feedback-img-box flex-group">
                   <img
-                    src="images/people/customer-1.jpg"
-                    alt="customers images"
+                    src="images/people/customer-1.webp"
+                    alt="customer1 image"
                     class="feedback-img"
+                    width="max-width"
+                    height="auto"
                   />
                   <img
-                    src="images/people/customer-2.jpg"
-                    alt="customers images"
+                    src="images/people/customer-2.webp"
+                    alt="customer2 image"
                     class="feedback-img"
+                    width="max-width"
+                    height="auto"
                   />
                   <img
-                    src="images/people/customer-4.jpg"
-                    alt="customers images"
+                    src="images/people/customer-4.webp"
+                    alt="customer4 image"
                     class="feedback-img"
+                    width="max-width"
+                    height="auto"
                   />
                   <img
-                    src="images/people/customer-5.jpg"
-                    alt="customers images"
+                    src="images/people/customer-5.webp"
+                    alt="customer5 image"
                     class="feedback-img"
+                    width="max-width"
+                    height="auto"
                   />
                 </div>
                 <div class="feedback-text-box">
@@ -314,12 +324,21 @@
                 <source
                   srcset="images/features-thumb-2.webp"
                   type="image/webp"
+                  width="max-width"
+                  height="auto"
                 />
-                <source srcset="images/features-thumb-2.png" type="image/png" />
+                <source
+                  srcset="images/features-thumb-2.png"
+                  type="image/png"
+                  width="max-width"
+                  height="auto"
+                />
                 <img
                   loading="lazy"
                   src="images/features-thumb-2.png"
                   alt="features appie application"
+                  width="max-width"
+                  height="auto"
                 />
               </picture>
             </div>
@@ -342,6 +361,8 @@
                   loading="lazy"
                   src="images/icons/counter-icon-1.svg"
                   alt="icon1"
+                  width="max-width"
+                  height="auto"
                 />
                 <h2>45K+</h2>
                 <p class="p-heading">Active Installation</p>
@@ -351,6 +372,8 @@
                   loading="lazy"
                   src="images/icons/counter-icon-2.svg"
                   alt="icon1"
+                  width="max-width"
+                  height="auto"
                 />
                 <h2>108+</h2>
                 <p class="p-heading">Active Installation</p>
@@ -360,6 +383,8 @@
                   loading="lazy"
                   src="images/icons/counter-icon-3.svg"
                   alt="icon1"
+                  width="max-width"
+                  height="auto"
                 />
                 <h2>307+</h2>
                 <p class="p-heading">Active Installation</p>
@@ -369,6 +394,8 @@
                   loading="lazy"
                   src="images/icons/counter-icon-4.svg"
                   alt="icon1"
+                  width="max-width"
+                  height="auto"
                 />
                 <h2>725K+</h2>
                 <p class="p-heading">Active Installation</p>
@@ -377,7 +404,7 @@
             <div class="video-slider-container even-column">
               <div class="video-container">
                 <div class="video-player">
-                  <video class="my-video" poster="images/video-thumb-1.jpg">
+                  <video class="my-video" poster="images/video-thumb-1.webp">
                     <source src="video/video-1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
@@ -400,13 +427,28 @@
                 <div class="carousel">
                   <ul class="carousel-list">
                     <li class="carousel-slide current-slide">
-                      <img src="images/video-slide-1.jpg" alt="video-slid 1" />
+                      <img
+                        src="images/video-slide-1.webp"
+                        alt="video-slid 1"
+                        width="max-width"
+                        height="auto"
+                      />
                     </li>
                     <li class="carousel-slide">
-                      <img src="images/video-slide-2.jpg" alt="video-slid 2" />
+                      <img
+                        src="images/video-slide-2.webp"
+                        alt="video-slid 2"
+                        width="max-width"
+                        height="auto"
+                      />
                     </li>
                     <li class="carousel-slide">
-                      <img src="images/video-slide-3.jpg" alt="video-slid 3" />
+                      <img
+                        src="images/video-slide-3.webp"
+                        alt="video-slid 3"
+                        width="max-width"
+                        height="auto"
+                      />
                     </li>
                   </ul>
                 </div>
@@ -415,12 +457,14 @@
                     <ion-icon
                       class="icon-pre"
                       name="arrow-back-outline"
+                      aria-label="previous image"
                     ></ion-icon>
                   </button>
                   <button class="next-btn slider-btn btn-hover">
                     <ion-icon
                       class="icon-next"
                       name="arrow-forward-outline"
+                      aria-label="next image"
                     ></ion-icon>
                   </button>
                 </div>
@@ -568,15 +612,17 @@
               <div class="slide-item even-column active">
                 <div class="testmeniols-img-box">
                   <img
-                    src="images/people/customer-4.jpg"
+                    src="images/people/customer-4.webp"
                     alt="testmeniols image"
+                    width="max-width"
+                    height="auto"
                   />
                   <div class="stars">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
                   </div>
                   <p>(4.7) reviews</p>
                 </div>
@@ -597,15 +643,17 @@
               <div class="slide-item even-column">
                 <div class="testmeniols-img-box">
                   <img
-                    src="images/people/customer-5.jpg"
+                    src="images/people/customer-5.webp"
                     alt="testmeniols image"
+                    width="max-width"
+                    height="auto"
                   />
                   <div class="stars">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
                   </div>
                   <p>(4.7) reviews</p>
                 </div>
@@ -626,15 +674,17 @@
               <div class="slide-item even-column">
                 <div class="testmeniols-img-box">
                   <img
-                    src="images/people/customer-2.jpg"
+                    src="images/people/customer-2.webp"
                     alt="testmeniols image"
+                    width="max-width"
+                    height="auto"
                   />
                   <div class="stars">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
                   </div>
                   <p>(4.7) reviews</p>
                 </div>
@@ -655,15 +705,17 @@
               <div class="slide-item even-column">
                 <div class="testmeniols-img-box">
                   <img
-                    src="images/people/customer-1.jpg"
+                    src="images/people/customer-1.webp"
                     alt="testmeniols image"
+                    width="max-width"
+                    height="auto"
                   />
                   <div class="stars">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
+                    <ion-icon name="star" aria-label="star-rate"></ion-icon>
                   </div>
                   <p>(4.7) reviews</p>
                 </div>
@@ -684,12 +736,17 @@
             </div>
             <div class="slider-controls">
               <button class="tprev-btn slider-btn">
-                <ion-icon class="icon-pre" name="arrow-back-outline"></ion-icon>
+                <ion-icon
+                  class="icon-pre"
+                  name="arrow-back-outline"
+                  aria-label="previous button"
+                ></ion-icon>
               </button>
               <button class="tnext-btn slider-btn">
                 <ion-icon
                   class="icon-next"
                   name="arrow-forward-outline"
+                  aria-label="next button"
                 ></ion-icon>
               </button>
             </div>
@@ -708,71 +765,91 @@
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-1.png"
+                  src="images/sponsers/sponser-1.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-2.png"
+                  src="images/sponsers/sponser-2.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-3.png"
+                  src="images/sponsers/sponser-3.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-4.png"
+                  src="images/sponsers/sponser-4.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-5.png"
+                  src="images/sponsers/sponser-5.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-6.png"
+                  src="images/sponsers/sponser-6.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-7.png"
+                  src="images/sponsers/sponser-7.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-8.png"
+                  src="images/sponsers/sponser-8.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-9.png"
+                  src="images/sponsers/sponser-9.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
               <div class="platform-icon">
                 <img
                   loading="lazy"
-                  src="images/sponsers/sponser-10.png"
+                  src="images/sponsers/sponser-10.webp"
                   alt="plateformicons with appie "
+                  width="max-width"
+                  height="auto"
                 />
               </div>
             </div>
@@ -798,10 +875,26 @@
               <ion-icon class="arrow-b" name="arrow-forward-outline"></ion-icon>
             </a>
             <div class="social-footer">
-              <ion-icon class="footer-icon" name="logo-facebook"></ion-icon>
-              <ion-icon class="footer-icon" name="logo-twitter"></ion-icon>
-              <ion-icon class="footer-icon" name="logo-pinterest"></ion-icon>
-              <ion-icon class="footer-icon" name="logo-linkedin"></ion-icon>
+              <ion-icon
+                class="footer-icon"
+                name="logo-facebook"
+                aria-label="social-media icon for facebook"
+              ></ion-icon>
+              <ion-icon
+                class="footer-icon"
+                name="logo-twitter"
+                aria-label="social-media icon for twitter "
+              ></ion-icon>
+              <ion-icon
+                class="footer-icon"
+                name="logo-pinterest"
+                aria-label="social-media icon for intrest"
+              ></ion-icon>
+              <ion-icon
+                class="footer-icon"
+                name="logo-linkedin"
+                aria-label="social-media icon for linkedin "
+              ></ion-icon>
             </div>
           </div>
           <nav class="nav-col">
