@@ -397,6 +397,7 @@ input[type="email"] {
 }
 .feedback-img {
   width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   border: 3px solid var(--clr-primary-white);
   margin-right: -1rem;
@@ -1067,6 +1068,8 @@ p.price.yearly {
 .testmeniols-img-box img {
   border-radius: 50%;
   margin-bottom: 0.5rem;
+  width: 6rem;
+  height: 6rem;
 }
 .stars ion-icon {
   color: hsl(37, 100%, 55%);
